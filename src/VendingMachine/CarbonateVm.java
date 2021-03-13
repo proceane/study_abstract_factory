@@ -13,8 +13,8 @@ public class CarbonateVm extends VendingMachine{
 	Drink makeDrink(String name) {
 		
 		Drink drink = null;
-		MaterialFactory colaFactory = new ColaFactory();
-		MaterialFactory cydarFactory = new CydarFactory();
+//		MaterialFactory colaFactory = new ColaFactory();
+//		MaterialFactory cydarFactory = new CydarFactory();
 		
 		if(name.equals("콜라")) {
 			drink = new Cola();
